@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Personal Portfolio</div>
+            <div class="nav-links">
+                <button class="nav-btn active" data-tab="home">
+                    <i data-lucide="home"></i>
+                    Home
+                </button>
+                <button class="nav-btn" data-tab="about">
+                    <i data-lucide="user"></i>
+                    About
+                </button>
+                <button class="nav-btn" data-tab="skills">
+                    <i data-lucide="code-2"></i>
+                    Skills
+                </button>
+                <button class="nav-btn" data-tab="projects">
+                    <i data-lucide="folder-git-2"></i>
+                    Projects
+                </button>
+                <button class="nav-btn" data-tab="internships">
+                    <i data-lucide="briefcase"></i>
+                    Internships
+                </button>
+                <button class="nav-btn" data-tab="contact">
+                    <i data-lucide="mail"></i>
+                    Contact
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="home-content">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Profile">
+                </div>
+                <div class="profile-info">
+                    <h1>I am Aparna Lekkala</h1>
+                    <h2>AI Beginner & Web Developer</h2>
+                    <div class="social-links">
+                        <a href="https://github.com/Aparna2320" target="_blank">
+                            <i data-lucide="github"></i>
+                            github
+                        </a>
+                        <a href="https://www.linkedin.com/in/aparna-lekkala-140b5b259" target="_blank">
+                            <i data-lucide="linkedin"></i>
+                            linkedin
+                        </a>
+                        <a href="https://leetcode.com/u/Aparnalekkala/" target="_blank">
+                            <i data-lucide="code-2"></i>
+                            leetcode
+                        </a>
+                        <div class="contact-info">
+                            <i data-lucide="phone"></i>
+                            +91 8367223555
+                        </div>
+                        <div class="contact-info">
+                            <i data-lucide="mail"></i>
+                            aparnalekkala23@gmail.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="about-content">
+                <div class="about-me">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Aparna Lekkala, an AI enthusiast and web developer. I'm currently pursuing a B.Tech in Computer Science and Engineering (Artificial Intelligence) at Pragati Engineering College, Surampalem.</p>
+                    <p>I am passionate about exploring innovative solutions, with a focus on web development and machine learning. I excel in communication and teamwork, which help me collaborate effectively and deliver impactful projects that combine cutting-edge AI technologies with seamless user experiences.</p>
+                </div>
+                <div class="education">
+                    <h2>Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>B.Tech in Computer Science and Engineering(Artificial Intelligence)</h3>
+                                <p>Pragati Engineering College,Surampalem</p>
+                                <span>2022-2026</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Secondary Senior Education(12th)</h3>
+                                <p>Sri Chaitanya College</p>
+                                <span>2020-2022</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h3>Secondary Education(10th)</h3>
+                                <p>Sri Chaitanya Techno School</p>
+                                <span>2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Python</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Java</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Javascript</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>HTML,CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>SQL</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            
+                <div class="project-card">
+                    <img src="images/portifolio.jpg" alt="Natural Language Processing">
+                    <div class="project-info">
+                        <h3>Personal Portifolio</h3>
+                        <p>A personal portfolio showcases your skills, experiences, and projects.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>javascript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Section -->
+        <section id="internships" class="section">
+            <h2>Internships</h2>
+            <div class="internships-grid">
+                <div class="internship-card">
+                    <img src="images/rpa.jpeg" alt="Tech Corp">
+                    <div class="internship-info">
+                        <h3>Robotic Process Automation Virtual Internship</h3>
+                        <h4>Blueprism University</h4>
+                        <p class="duration">Dec 2022 - Feb 2023</p>
+                        <p>Learned to design, build, and automate business processes using the Blue Prism RPA platform</p>
+                    </div>
+                </div>
+                <div class="internship-card">
+                    <img src="images/aws.jpg" alt="Data Solutions Inc">
+                    <div class="internship-info">
+                        <h3>AWS CLOUD VIRTUAL INTERNSHIP</h3>
+                        <h4>AWS academy</h4>
+                        <p class="duration">Oct 2024 - Dec 2024</p>
+                        <p>Learned to build, deploy, and manage cloud-based solutions, gaining hands-on experience with core AWS services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>aprnalekkala23@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 8367223555</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Kakinada,AP,India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
